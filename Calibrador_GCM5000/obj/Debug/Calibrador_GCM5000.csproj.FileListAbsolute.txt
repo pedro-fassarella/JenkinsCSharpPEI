@@ -1,0 +1,16 @@
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\Calibrador_GCM5000.exe.config
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\Calibrador_GCM5000.exe
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\Calibrador_GCM5000.pdb
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\WebDriver.dll
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\bin\Debug\WebDriver.Support.dll
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.csproj.AssemblyReference.cache
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.Properties.Resources.resources
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.View.TelaInicial.resources
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.csproj.GenerateResource.cache
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.csproj.CopyComplete
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.exe
+C:\Users\pedro\source\Tcc\Calibrador_GCM5000\obj\Debug\Calibrador_GCM5000.pdb
