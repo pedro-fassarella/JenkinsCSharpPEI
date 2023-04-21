@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace Calibrador_GCM5000.Controle
+namespace Calibrador_GCM5000.Model
 {
     class Selenium
     {
@@ -66,6 +66,13 @@ namespace Calibrador_GCM5000.Controle
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 15));
             wait.Until(wd => js.ExecuteScript("return document.readyState").ToString().Equals("complete"));
+        }
+
+        public void WaitElementToBeDisplayed(By Parametro)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 15));
+            wait.Until(wd => driver.FindElement(Parametro).Displayed);
         }
 
         public void Click(By Paramtero)

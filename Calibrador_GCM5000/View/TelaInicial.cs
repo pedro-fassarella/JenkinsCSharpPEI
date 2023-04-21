@@ -14,35 +14,41 @@ namespace Calibrador_GCM5000.View
 {
     public partial class TelaInicial : Form
     {
-        public Thread T1;
 
         public TelaInicial()
         {
             InitializeComponent();
         }
 
-        private void btnSair_Click(object sender, EventArgs e)=> Application.Exit();
+        private void btnSair_Click(object sender, EventArgs e) => Application.Exit();
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            SetT1();
+            NavegarSite();
         }
 
-        private void Inicio()
+        private void NavegarSite()
         {
             Navegacao nav = new Navegacao();
-            nav.Iniciar();
+
+            do
+                Thread.Sleep(TimeSpan.FromSeconds(1));
+            while (!nav.Resposta);
+
+            nav.T1.Abort(100);
+            nav.T1.Join();
+
+            Hide(); Dispose();
+            Application.Exit();
         }
 
-        private void SetT1()
+        private void TelaInicial_Load(object sender, EventArgs e)
         {
-            T1 = new Thread(Inicio)
-            {
-                Name = "Thread #1",
-            };
+            CalibracaoCalculo calc = new CalibracaoCalculo();
 
-            T1.SetApartmentState(ApartmentState.STA);
-            T1.Start();
+            calc.Calcular();
+
+            NavegarSite();
         }
     }
 }

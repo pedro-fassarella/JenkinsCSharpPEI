@@ -36,6 +36,7 @@ namespace Calibrador_GCM5000.View
             // 
             // btnIniciar
             // 
+            this.btnIniciar.Enabled = false;
             this.btnIniciar.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.Location = new System.Drawing.Point(7, 72);
             this.btnIniciar.Name = "btnIniciar";
@@ -47,6 +48,7 @@ namespace Calibrador_GCM5000.View
             // 
             // btnSair
             // 
+            this.btnSair.Enabled = false;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.Location = new System.Drawing.Point(101, 72);
             this.btnSair.Name = "btnSair";
@@ -77,6 +79,7 @@ namespace Calibrador_GCM5000.View
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TelaInicial";
             this.Text = "TelaInicial";
+            this.Load += new System.EventHandler(this.TelaInicial_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
